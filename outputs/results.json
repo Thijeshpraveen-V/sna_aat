@@ -1,0 +1,1622 @@
+{
+  "meta": {
+    "seed": 42,
+    "python": "3.14.5",
+    "networkx": "3.7",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "runtime_seconds": 274.5134770870209
+  },
+  "cleaning": {
+    "raw_lines": 28980,
+    "raw_unique_nodes": 5242,
+    "self_loop_lines_removed": 12,
+    "duplicate_lines_removed": 14484,
+    "clean_nodes": 5242,
+    "clean_edges": 14484,
+    "isolated_nodes_after_cleaning": 1
+  },
+  "stats_full": {
+    "nodes": 5242,
+    "edges": 14484,
+    "density": 0.0010544047057723853,
+    "avg_degree": 5.526135062953071,
+    "max_degree": 81,
+    "median_degree": 3.0,
+    "avg_clustering": 0.5296358110521362,
+    "transitivity": 0.6298424741263426,
+    "connected_components": 355,
+    "lcc_nodes": 4158,
+    "isolated_nodes": 1,
+    "degree_assortativity": 0.6593246242993968
+  },
+  "stats_lcc": {
+    "nodes": 4158,
+    "edges": 13422,
+    "density": 0.0015530402828935425,
+    "avg_degree": 6.455988455988456,
+    "max_degree": 81,
+    "median_degree": 3.0,
+    "avg_clustering": 0.5568782161697929,
+    "transitivity": 0.6288944756689877,
+    "connected_components": 1,
+    "lcc_nodes": 4158,
+    "isolated_nodes": 0,
+    "degree_assortativity": 0.6391861406753755,
+    "diameter": 17,
+    "avg_shortest_path": 6.049380016182999
+  },
+  "top10_authors": {
+    "degree": [
+      {
+        "node": 21012,
+        "degree": 81,
+        "betweenness": 0.01164925934347867,
+        "pagerank": 0.0010699228941402268
+      },
+      {
+        "node": 21281,
+        "degree": 79,
+        "betweenness": 0.00964272913775206,
+        "pagerank": 0.001153025889021159
+      },
+      {
+        "node": 12365,
+        "degree": 77,
+        "betweenness": 0.011229341740389333,
+        "pagerank": 0.001034715401766211
+      },
+      {
+        "node": 22691,
+        "degree": 77,
+        "betweenness": 0.009776640777035212,
+        "pagerank": 0.001082082902367651
+      },
+      {
+        "node": 6610,
+        "degree": 68,
+        "betweenness": 0.012766513771772488,
+        "pagerank": 0.0009089412046632609
+      },
+      {
+        "node": 9785,
+        "degree": 68,
+        "betweenness": 0.007255222995632241,
+        "pagerank": 0.0008085649002185324
+      },
+      {
+        "node": 21508,
+        "degree": 67,
+        "betweenness": 0.00322798481517008,
+        "pagerank": 0.0008239724961325448
+      },
+      {
+        "node": 17655,
+        "degree": 66,
+        "betweenness": 0.01799856257605199,
+        "pagerank": 0.0008971347579736525
+      },
+      {
+        "node": 2741,
+        "degree": 65,
+        "betweenness": 0.005866027076234645,
+        "pagerank": 0.0007739519607827977
+      },
+      {
+        "node": 19423,
+        "degree": 63,
+        "betweenness": 0.007094528546458998,
+        "pagerank": 0.0008443842699813599
+      }
+    ],
+    "betweenness": [
+      {
+        "node": 13801,
+        "degree": 45,
+        "betweenness": 0.037027150433897586,
+        "pagerank": 0.0013428428527702634
+      },
+      {
+        "node": 9572,
+        "degree": 34,
+        "betweenness": 0.02568900557385054,
+        "pagerank": 0.001173036858467665
+      },
+      {
+        "node": 14599,
+        "degree": 30,
+        "betweenness": 0.025488418054511127,
+        "pagerank": 0.0009080552006519775
+      },
+      {
+        "node": 7689,
+        "degree": 32,
+        "betweenness": 0.024970551728636797,
+        "pagerank": 0.0010957604057612136
+      },
+      {
+        "node": 13929,
+        "degree": 45,
+        "betweenness": 0.02465268472568466,
+        "pagerank": 0.0013057870504154289
+      },
+      {
+        "node": 5052,
+        "degree": 29,
+        "betweenness": 0.02442223161446019,
+        "pagerank": 0.0009511055601983357
+      },
+      {
+        "node": 14485,
+        "degree": 21,
+        "betweenness": 0.02350273646900899,
+        "pagerank": 0.0006158654094948361
+      },
+      {
+        "node": 2710,
+        "degree": 33,
+        "betweenness": 0.022354920330838156,
+        "pagerank": 0.00115336031168091
+      },
+      {
+        "node": 14265,
+        "degree": 37,
+        "betweenness": 0.019731058737430838,
+        "pagerank": 0.0014494612563620227
+      },
+      {
+        "node": 17655,
+        "degree": 66,
+        "betweenness": 0.01799856257605199,
+        "pagerank": 0.0008971347579736525
+      }
+    ],
+    "pagerank": [
+      {
+        "node": 14265,
+        "degree": 37,
+        "betweenness": 0.019731058737430838,
+        "pagerank": 0.0014494612563620227
+      },
+      {
+        "node": 13801,
+        "degree": 45,
+        "betweenness": 0.037027150433897586,
+        "pagerank": 0.0013428428527702634
+      },
+      {
+        "node": 13929,
+        "degree": 45,
+        "betweenness": 0.02465268472568466,
+        "pagerank": 0.0013057870504154289
+      },
+      {
+        "node": 9572,
+        "degree": 34,
+        "betweenness": 0.02568900557385054,
+        "pagerank": 0.001173036858467665
+      },
+      {
+        "node": 2710,
+        "degree": 33,
+        "betweenness": 0.022354920330838156,
+        "pagerank": 0.00115336031168091
+      },
+      {
+        "node": 21281,
+        "degree": 79,
+        "betweenness": 0.00964272913775206,
+        "pagerank": 0.001153025889021159
+      },
+      {
+        "node": 7689,
+        "degree": 32,
+        "betweenness": 0.024970551728636797,
+        "pagerank": 0.0010957604057612136
+      },
+      {
+        "node": 22691,
+        "degree": 77,
+        "betweenness": 0.009776640777035212,
+        "pagerank": 0.001082082902367651
+      },
+      {
+        "node": 6264,
+        "degree": 32,
+        "betweenness": 0.009981667700693662,
+        "pagerank": 0.0010716828015087721
+      },
+      {
+        "node": 21012,
+        "degree": 81,
+        "betweenness": 0.01164925934347867,
+        "pagerank": 0.0010699228941402268
+      }
+    ]
+  },
+  "top10_overlap_all_three": [],
+  "split": {
+    "seed": 42,
+    "lcc_nodes": 4158,
+    "lcc_edges": 13422,
+    "forest_edges": 4157,
+    "n_train_pos": 10738,
+    "n_test_pos": 2684,
+    "n_train_neg": 10738,
+    "n_test_neg": 2684,
+    "train_graph_nodes": 4158,
+    "train_graph_edges": 10738,
+    "train_components": 1,
+    "train_avg_clustering": 0.40442315025869313
+  },
+  "dataset_files": {
+    "raw": "dataset/raw/ca-GrQc.txt.gz",
+    "raw_txt": "dataset/raw/ca-GrQc.txt",
+    "clean": "dataset/ca-GrQc_clean_edges.csv",
+    "train": "dataset/train_edges.csv",
+    "test": "dataset/test_edges.csv",
+    "train_graph": "dataset/train_graph_edges.csv",
+    "nodes": "dataset/nodes.csv",
+    "readme": "dataset/README.md",
+    "zip": "dataset/dataset.zip"
+  },
+  "cross_check_max_abs_diff": {
+    "cn": 0.0,
+    "jaccard": 0.0,
+    "adamic_adar": 0.0,
+    "pref_attach": 0.0
+  },
+  "cross_check_pairs": 16106,
+  "test_score_means": {
+    "negatives": {
+      "cn": 0.005588673621460507,
+      "jaccard": 0.0004091923559136674,
+      "adamic_adar": 0.0021080545332150327,
+      "pref_attach": 24.458643815201192
+    },
+    "positives": {
+      "cn": 7.582339791356185,
+      "jaccard": 0.3275470598797927,
+      "adamic_adar": 2.598673073265538,
+      "pref_attach": 337.5167660208644
+    }
+  },
+  "test_zero_cn_fraction": {
+    "negatives": 0.9955290611028316,
+    "positives": 0.0875558867362146
+  },
+  "metrics_test": {
+    "cn": {
+      "roc_auc": 0.9553733444977245,
+      "average_precision": 0.9549761046576909,
+      "threshold": 1.0,
+      "train_f1_at_threshold": 0.8885229027277406,
+      "precision": 0.9951239333604226,
+      "recall": 0.9124441132637854,
+      "f1": 0.9519922254616132,
+      "p@10": 1.0,
+      "p@20": 1.0,
+      "p@50": 1.0,
+      "p@100": 1.0
+    },
+    "jaccard": {
+      "roc_auc": 0.95547988466177,
+      "average_precision": 0.9554910330722418,
+      "threshold": 0.011904761904761904,
+      "train_f1_at_threshold": 0.8885229027277406,
+      "precision": 0.9951239333604226,
+      "recall": 0.9124441132637854,
+      "f1": 0.9519922254616132,
+      "p@10": 1.0,
+      "p@20": 1.0,
+      "p@50": 1.0,
+      "p@100": 1.0
+    },
+    "adamic_adar": {
+      "roc_auc": 0.9556956718735077,
+      "average_precision": 0.955816544095192,
+      "threshold": 0.2422988705246811,
+      "train_f1_at_threshold": 0.8885229027277406,
+      "precision": 0.9951239333604226,
+      "recall": 0.9124441132637854,
+      "f1": 0.9519922254616132,
+      "p@10": 1.0,
+      "p@20": 1.0,
+      "p@50": 1.0,
+      "p@100": 1.0
+    },
+    "pref_attach": {
+      "roc_auc": 0.8490216906056978,
+      "average_precision": 0.8662051799663196,
+      "threshold": 10.0,
+      "train_f1_at_threshold": 0.6691591890993687,
+      "precision": 0.6515885837372105,
+      "recall": 0.9016393442622951,
+      "f1": 0.7564864020006252,
+      "p@10": 1.0,
+      "p@20": 1.0,
+      "p@50": 1.0,
+      "p@100": 1.0
+    }
+  },
+  "metrics_hard_negatives": {
+    "cn": {
+      "roc_auc": 0.7775847407277436,
+      "average_precision": 0.8144172081917344,
+      "threshold": 1.0,
+      "train_f1_at_threshold": 0.8885229027277406,
+      "precision": 0.4771089031755309,
+      "recall": 0.9124441132637854,
+      "f1": 0.6265830881412306,
+      "p@10": 1.0,
+      "p@20": 1.0,
+      "p@50": 1.0,
+      "p@100": 1.0
+    },
+    "jaccard": {
+      "roc_auc": 0.7594152353961545,
+      "average_precision": 0.7879992953070352,
+      "threshold": 0.011904761904761904,
+      "train_f1_at_threshold": 0.8885229027277406,
+      "precision": 0.4772018706157444,
+      "recall": 0.9124441132637854,
+      "f1": 0.626663254861822,
+      "p@10": 0.6,
+      "p@20": 0.7,
+      "p@50": 0.78,
+      "p@100": 0.79
+    },
+    "adamic_adar": {
+      "roc_auc": 0.850362292083573,
+      "average_precision": 0.9003908992722667,
+      "threshold": 0.2422988705246811,
+      "train_f1_at_threshold": 0.8885229027277406,
+      "precision": 0.4771089031755309,
+      "recall": 0.9124441132637854,
+      "f1": 0.6265830881412306,
+      "p@10": 1.0,
+      "p@20": 1.0,
+      "p@50": 1.0,
+      "p@100": 1.0
+    },
+    "pref_attach": {
+      "roc_auc": 0.6437822327375783,
+      "average_precision": 0.6811691017932867,
+      "threshold": 10.0,
+      "train_f1_at_threshold": 0.6691591890993687,
+      "precision": 0.523356401384083,
+      "recall": 0.9016393442622951,
+      "f1": 0.662287903667214,
+      "p@10": 1.0,
+      "p@20": 1.0,
+      "p@50": 0.98,
+      "p@100": 0.99
+    }
+  },
+  "n_hard_negatives": 2684,
+  "multi_seed": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "runs": [
+      {
+        "seed": 42,
+        "method": "cn",
+        "roc_auc": 0.9553733444977245,
+        "average_precision": 0.9549761046576909
+      },
+      {
+        "seed": 42,
+        "method": "jaccard",
+        "roc_auc": 0.95547988466177,
+        "average_precision": 0.9554910330722418
+      },
+      {
+        "seed": 42,
+        "method": "adamic_adar",
+        "roc_auc": 0.9556956718735077,
+        "average_precision": 0.955816544095192
+      },
+      {
+        "seed": 42,
+        "method": "pref_attach",
+        "roc_auc": 0.8490216906056978,
+        "average_precision": 0.8662051799663196
+      },
+      {
+        "seed": 43,
+        "method": "cn",
+        "roc_auc": 0.9527693224295433,
+        "average_precision": 0.9523134594769624
+      },
+      {
+        "seed": 43,
+        "method": "jaccard",
+        "roc_auc": 0.952805483618773,
+        "average_precision": 0.9527539725015406
+      },
+      {
+        "seed": 43,
+        "method": "adamic_adar",
+        "roc_auc": 0.9531163587945123,
+        "average_precision": 0.9532567699859492
+      },
+      {
+        "seed": 43,
+        "method": "pref_attach",
+        "roc_auc": 0.8372916532479273,
+        "average_precision": 0.8568727024999672
+      },
+      {
+        "seed": 44,
+        "method": "cn",
+        "roc_auc": 0.9563713516761024,
+        "average_precision": 0.9557880403994516
+      },
+      {
+        "seed": 44,
+        "method": "jaccard",
+        "roc_auc": 0.9564922591456576,
+        "average_precision": 0.9564067208504976
+      },
+      {
+        "seed": 44,
+        "method": "adamic_adar",
+        "roc_auc": 0.9568467914961098,
+        "average_precision": 0.9569200433084932
+      },
+      {
+        "seed": 44,
+        "method": "pref_attach",
+        "roc_auc": 0.842731864712454,
+        "average_precision": 0.8599735417207386
+      },
+      {
+        "seed": 45,
+        "method": "cn",
+        "roc_auc": 0.957058344864195,
+        "average_precision": 0.9566184046478015
+      },
+      {
+        "seed": 45,
+        "method": "jaccard",
+        "roc_auc": 0.9565279344839765,
+        "average_precision": 0.9559853454727586
+      },
+      {
+        "seed": 45,
+        "method": "adamic_adar",
+        "roc_auc": 0.9573970523564048,
+        "average_precision": 0.9575604836208715
+      },
+      {
+        "seed": 45,
+        "method": "pref_attach",
+        "roc_auc": 0.8426370543775443,
+        "average_precision": 0.8624081560762977
+      },
+      {
+        "seed": 46,
+        "method": "cn",
+        "roc_auc": 0.9606284467651769,
+        "average_precision": 0.9601354596052527
+      },
+      {
+        "seed": 46,
+        "method": "jaccard",
+        "roc_auc": 0.9605913832813981,
+        "average_precision": 0.9591568682330689
+      },
+      {
+        "seed": 46,
+        "method": "adamic_adar",
+        "roc_auc": 0.960951537620963,
+        "average_precision": 0.9608739768725342
+      },
+      {
+        "seed": 46,
+        "method": "pref_attach",
+        "roc_auc": 0.8403482801433012,
+        "average_precision": 0.8616492929649215
+      }
+    ],
+    "summary": {
+      "cn": {
+        "roc_auc_mean": 0.9564401620465484,
+        "roc_auc_std": 0.002852270013676102,
+        "average_precision_mean": 0.9559662937574318,
+        "average_precision_std": 0.002835605732177172
+      },
+      "jaccard": {
+        "roc_auc_mean": 0.9563793890383151,
+        "roc_auc_std": 0.0027998932562500836,
+        "average_precision_mean": 0.9559587880260215,
+        "average_precision_std": 0.00228684845183655
+      },
+      "adamic_adar": {
+        "roc_auc_mean": 0.9568014824282995,
+        "roc_auc_std": 0.0028452885500608463,
+        "average_precision_mean": 0.956885563576608,
+        "average_precision_std": 0.0027692549590292797
+      },
+      "pref_attach": {
+        "roc_auc_mean": 0.8424061086173849,
+        "roc_auc_std": 0.0043103854171240505,
+        "average_precision_mean": 0.861421774645649,
+        "average_precision_std": 0.0034167643818957417
+      }
+    }
+  },
+  "best_method": {
+    "key": "adamic_adar",
+    "name": "Adamic-Adar"
+  },
+  "phase4_summary_md": "**Best method: Adamic-Adar** (mean ROC-AUC over 5 splits = 0.9568 \u00b1 0.0028).\n\n* On the main test set the three local indices are almost tied\n  (ROC-AUC 0.9554 - 0.9557), and far ahead of\n  Preferential Attachment (0.8490).\n* With **hard negatives** the gap opens: Adamic-Adar ROC-AUC = 0.8504,\n  CN = 0.7776, Jaccard = 0.7594,\n  PA = 0.6438.\n* Thresholds learned on the training pairs: CN >= 1, Jaccard >= 0.0119,\n  AA >= 0.2423 - all three amount to \"at least one shared co-author\", hence identical\n  test P/R/F1 = 0.995/0.912/0.952;\n  PA >= 10 (test F1 = 0.756).\n",
+  "hit_rate": [
+    {
+      "method": "cn",
+      "k": 10,
+      "hits": 10,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "cn",
+      "k": 20,
+      "hits": 20,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "cn",
+      "k": 50,
+      "hits": 50,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "cn",
+      "k": 100,
+      "hits": 100,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "cn",
+      "k": 500,
+      "hits": 492,
+      "hit_rate": 0.984
+    },
+    {
+      "method": "cn",
+      "k": 1000,
+      "hits": 894,
+      "hit_rate": 0.894
+    },
+    {
+      "method": "jaccard",
+      "k": 10,
+      "hits": 10,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "jaccard",
+      "k": 20,
+      "hits": 18,
+      "hit_rate": 0.9
+    },
+    {
+      "method": "jaccard",
+      "k": 50,
+      "hits": 33,
+      "hit_rate": 0.66
+    },
+    {
+      "method": "jaccard",
+      "k": 100,
+      "hits": 44,
+      "hit_rate": 0.44
+    },
+    {
+      "method": "jaccard",
+      "k": 500,
+      "hits": 80,
+      "hit_rate": 0.16
+    },
+    {
+      "method": "jaccard",
+      "k": 1000,
+      "hits": 487,
+      "hit_rate": 0.487
+    },
+    {
+      "method": "adamic_adar",
+      "k": 10,
+      "hits": 10,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "adamic_adar",
+      "k": 20,
+      "hits": 20,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "adamic_adar",
+      "k": 50,
+      "hits": 50,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "adamic_adar",
+      "k": 100,
+      "hits": 100,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "adamic_adar",
+      "k": 500,
+      "hits": 493,
+      "hit_rate": 0.986
+    },
+    {
+      "method": "adamic_adar",
+      "k": 1000,
+      "hits": 918,
+      "hit_rate": 0.918
+    },
+    {
+      "method": "pref_attach",
+      "k": 10,
+      "hits": 10,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "pref_attach",
+      "k": 20,
+      "hits": 20,
+      "hit_rate": 1.0
+    },
+    {
+      "method": "pref_attach",
+      "k": 50,
+      "hits": 48,
+      "hit_rate": 0.96
+    },
+    {
+      "method": "pref_attach",
+      "k": 100,
+      "hits": 92,
+      "hit_rate": 0.92
+    },
+    {
+      "method": "pref_attach",
+      "k": 500,
+      "hits": 270,
+      "hit_rate": 0.54
+    },
+    {
+      "method": "pref_attach",
+      "k": 1000,
+      "hits": 377,
+      "hit_rate": 0.377
+    }
+  ],
+  "candidate_pool_train": {
+    "n_candidates": 46588,
+    "n_test_positives": 2684,
+    "n_test_in_candidates": 2449,
+    "share_test_at_distance_2": 0.9124441132637854,
+    "random_baseline_hit_rate": 0.05256718468275092
+  },
+  "candidate_pool_full": {
+    "n_candidates": 63288,
+    "graph": "LCC"
+  },
+  "top20": [
+    {
+      "rank": 1,
+      "method": "Adamic-Adar",
+      "author_u": 45,
+      "author_v": 46,
+      "score": 10.597802981766895,
+      "common_neighbours": 42,
+      "shortest_path": 2,
+      "degree_u": 49,
+      "degree_v": 42,
+      "shared_collaborators": "2952 (deg 45), 4511 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), +37 more",
+      "explanation": "45 and 46 have never co-authored but share 42 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 2,
+      "method": "Adamic-Adar",
+      "author_u": 4511,
+      "author_v": 4513,
+      "score": 10.592054841937907,
+      "common_neighbours": 42,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 43,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +37 more",
+      "explanation": "4511 and 4513 have never co-authored but share 42 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 3,
+      "method": "Adamic-Adar",
+      "author_u": 4511,
+      "author_v": 22691,
+      "score": 10.592054841937907,
+      "common_neighbours": 42,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 77,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +37 more",
+      "explanation": "4511 and 22691 have never co-authored but share 42 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 4,
+      "method": "Adamic-Adar",
+      "author_u": 46,
+      "author_v": 4513,
+      "score": 10.335105670753032,
+      "common_neighbours": 41,
+      "shortest_path": 2,
+      "degree_u": 42,
+      "degree_v": 43,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +36 more",
+      "explanation": "46 and 4513 have never co-authored but share 41 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 5,
+      "method": "Adamic-Adar",
+      "author_u": 46,
+      "author_v": 22691,
+      "score": 10.335105670753032,
+      "common_neighbours": 41,
+      "shortest_path": 2,
+      "degree_u": 42,
+      "degree_v": 77,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +36 more",
+      "explanation": "46 and 22691 have never co-authored but share 41 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 6,
+      "method": "Adamic-Adar",
+      "author_u": 5210,
+      "author_v": 7444,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 33,
+      "degree_v": 28,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "5210 and 7444 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 7,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 8727,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 8727 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 8,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 9869,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 41,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 9869 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 9,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 12710,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 12710 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 10,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 15245,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 15245 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 11,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 15933,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 41,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 15933 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 12,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 19446,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 19446 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 13,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 20576,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 41,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 20576 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 14,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 22504,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 22504 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 15,
+      "method": "Adamic-Adar",
+      "author_u": 2449,
+      "author_v": 5210,
+      "score": 6.391750298405703,
+      "common_neighbours": 24,
+      "shortest_path": 2,
+      "degree_u": 34,
+      "degree_v": 33,
+      "shared_collaborators": "9869 (deg 41), 15933 (deg 41), 20576 (deg 41), 88 (deg 42), 1995 (deg 42), +19 more",
+      "explanation": "2449 and 5210 have never co-authored but share 24 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 16,
+      "method": "Adamic-Adar",
+      "author_u": 2449,
+      "author_v": 8727,
+      "score": 6.391750298405703,
+      "common_neighbours": 24,
+      "shortest_path": 2,
+      "degree_u": 34,
+      "degree_v": 33,
+      "shared_collaborators": "9869 (deg 41), 15933 (deg 41), 20576 (deg 41), 88 (deg 42), 1995 (deg 42), +19 more",
+      "explanation": "2449 and 8727 have never co-authored but share 24 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 17,
+      "method": "Adamic-Adar",
+      "author_u": 2449,
+      "author_v": 12710,
+      "score": 6.391750298405703,
+      "common_neighbours": 24,
+      "shortest_path": 2,
+      "degree_u": 34,
+      "degree_v": 33,
+      "shared_collaborators": "9869 (deg 41), 15933 (deg 41), 20576 (deg 41), 88 (deg 42), 1995 (deg 42), +19 more",
+      "explanation": "2449 and 12710 have never co-authored but share 24 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 18,
+      "method": "Adamic-Adar",
+      "author_u": 2449,
+      "author_v": 15245,
+      "score": 6.391750298405703,
+      "common_neighbours": 24,
+      "shortest_path": 2,
+      "degree_u": 34,
+      "degree_v": 33,
+      "shared_collaborators": "9869 (deg 41), 15933 (deg 41), 20576 (deg 41), 88 (deg 42), 1995 (deg 42), +19 more",
+      "explanation": "2449 and 15245 have never co-authored but share 24 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 19,
+      "method": "Adamic-Adar",
+      "author_u": 2449,
+      "author_v": 15457,
+      "score": 6.391750298405703,
+      "common_neighbours": 24,
+      "shortest_path": 2,
+      "degree_u": 34,
+      "degree_v": 34,
+      "shared_collaborators": "9869 (deg 41), 15933 (deg 41), 20576 (deg 41), 88 (deg 42), 1995 (deg 42), +19 more",
+      "explanation": "2449 and 15457 have never co-authored but share 24 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 20,
+      "method": "Adamic-Adar",
+      "author_u": 2449,
+      "author_v": 19446,
+      "score": 6.391750298405703,
+      "common_neighbours": 24,
+      "shortest_path": 2,
+      "degree_u": 34,
+      "degree_v": 33,
+      "shared_collaborators": "9869 (deg 41), 15933 (deg 41), 20576 (deg 41), 88 (deg 42), 1995 (deg 42), +19 more",
+      "explanation": "2449 and 19446 have never co-authored but share 24 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    }
+  ],
+  "top10": [
+    {
+      "rank": 1,
+      "method": "Common Neighbours",
+      "author_u": 45,
+      "author_v": 46,
+      "score": 42.0,
+      "common_neighbours": 42,
+      "shortest_path": 2,
+      "degree_u": 49,
+      "degree_v": 42,
+      "shared_collaborators": "2952 (deg 45), 4511 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), +37 more",
+      "explanation": "45 and 46 have never co-authored but share 42 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 2,
+      "method": "Common Neighbours",
+      "author_u": 4511,
+      "author_v": 4513,
+      "score": 42.0,
+      "common_neighbours": 42,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 43,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +37 more",
+      "explanation": "4511 and 4513 have never co-authored but share 42 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 3,
+      "method": "Common Neighbours",
+      "author_u": 4511,
+      "author_v": 22691,
+      "score": 42.0,
+      "common_neighbours": 42,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 77,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +37 more",
+      "explanation": "4511 and 22691 have never co-authored but share 42 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 4,
+      "method": "Common Neighbours",
+      "author_u": 46,
+      "author_v": 4513,
+      "score": 41.0,
+      "common_neighbours": 41,
+      "shortest_path": 2,
+      "degree_u": 42,
+      "degree_v": 43,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +36 more",
+      "explanation": "46 and 4513 have never co-authored but share 41 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 5,
+      "method": "Common Neighbours",
+      "author_u": 46,
+      "author_v": 22691,
+      "score": 41.0,
+      "common_neighbours": 41,
+      "shortest_path": 2,
+      "degree_u": 42,
+      "degree_v": 77,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +36 more",
+      "explanation": "46 and 22691 have never co-authored but share 41 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 6,
+      "method": "Common Neighbours",
+      "author_u": 5210,
+      "author_v": 7444,
+      "score": 25.0,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 33,
+      "degree_v": 28,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "5210 and 7444 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 7,
+      "method": "Common Neighbours",
+      "author_u": 7444,
+      "author_v": 8727,
+      "score": 25.0,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 8727 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 8,
+      "method": "Common Neighbours",
+      "author_u": 7444,
+      "author_v": 9869,
+      "score": 25.0,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 41,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 9869 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 9,
+      "method": "Common Neighbours",
+      "author_u": 7444,
+      "author_v": 12710,
+      "score": 25.0,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 12710 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 10,
+      "method": "Common Neighbours",
+      "author_u": 7444,
+      "author_v": 15245,
+      "score": 25.0,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 15245 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 1,
+      "method": "Jaccard",
+      "author_u": 19012,
+      "author_v": 20305,
+      "score": 1.0,
+      "common_neighbours": 5,
+      "shortest_path": 2,
+      "degree_u": 5,
+      "degree_v": 5,
+      "shared_collaborators": "272 (deg 6), 11811 (deg 6), 11840 (deg 6), 2912 (deg 18), 15300 (deg 19)",
+      "explanation": "19012 and 20305 have never co-authored but share 5 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 2,
+      "method": "Jaccard",
+      "author_u": 3595,
+      "author_v": 18174,
+      "score": 1.0,
+      "common_neighbours": 4,
+      "shortest_path": 2,
+      "degree_u": 4,
+      "degree_v": 4,
+      "shared_collaborators": "4511 (deg 45), 20635 (deg 47), 11241 (deg 49), 23293 (deg 53)",
+      "explanation": "3595 and 18174 have never co-authored but share 4 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 3,
+      "method": "Jaccard",
+      "author_u": 352,
+      "author_v": 20533,
+      "score": 1.0,
+      "common_neighbours": 3,
+      "shortest_path": 2,
+      "degree_u": 3,
+      "degree_v": 3,
+      "shared_collaborators": "23513 (deg 4), 17228 (deg 12), 21943 (deg 13)",
+      "explanation": "352 and 20533 have never co-authored but share 3 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 4,
+      "method": "Jaccard",
+      "author_u": 15666,
+      "author_v": 15667,
+      "score": 1.0,
+      "common_neighbours": 3,
+      "shortest_path": 2,
+      "degree_u": 3,
+      "degree_v": 3,
+      "shared_collaborators": "15205 (deg 4), 20303 (deg 10), 24330 (deg 20)",
+      "explanation": "15666 and 15667 have never co-authored but share 3 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 5,
+      "method": "Jaccard",
+      "author_u": 6703,
+      "author_v": 15596,
+      "score": 1.0,
+      "common_neighbours": 3,
+      "shortest_path": 2,
+      "degree_u": 3,
+      "degree_v": 3,
+      "shared_collaborators": "18920 (deg 6), 4673 (deg 10), 12687 (deg 11)",
+      "explanation": "6703 and 15596 have never co-authored but share 3 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 6,
+      "method": "Jaccard",
+      "author_u": 5227,
+      "author_v": 7015,
+      "score": 1.0,
+      "common_neighbours": 3,
+      "shortest_path": 2,
+      "degree_u": 3,
+      "degree_v": 3,
+      "shared_collaborators": "9647 (deg 5), 7125 (deg 10), 4241 (deg 18)",
+      "explanation": "5227 and 7015 have never co-authored but share 3 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 7,
+      "method": "Jaccard",
+      "author_u": 195,
+      "author_v": 19168,
+      "score": 1.0,
+      "common_neighbours": 3,
+      "shortest_path": 2,
+      "degree_u": 3,
+      "degree_v": 3,
+      "shared_collaborators": "20119 (deg 5), 20100 (deg 12), 22366 (deg 19)",
+      "explanation": "195 and 19168 have never co-authored but share 3 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 8,
+      "method": "Jaccard",
+      "author_u": 8730,
+      "author_v": 13177,
+      "score": 1.0,
+      "common_neighbours": 3,
+      "shortest_path": 2,
+      "degree_u": 3,
+      "degree_v": 3,
+      "shared_collaborators": "24885 (deg 7), 16817 (deg 9), 23939 (deg 17)",
+      "explanation": "8730 and 13177 have never co-authored but share 3 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 9,
+      "method": "Jaccard",
+      "author_u": 3411,
+      "author_v": 4428,
+      "score": 1.0,
+      "common_neighbours": 3,
+      "shortest_path": 2,
+      "degree_u": 3,
+      "degree_v": 3,
+      "shared_collaborators": "5934 (deg 17), 16469 (deg 19), 15066 (deg 21)",
+      "explanation": "3411 and 4428 have never co-authored but share 3 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 10,
+      "method": "Jaccard",
+      "author_u": 3411,
+      "author_v": 24734,
+      "score": 1.0,
+      "common_neighbours": 3,
+      "shortest_path": 2,
+      "degree_u": 3,
+      "degree_v": 3,
+      "shared_collaborators": "5934 (deg 17), 16469 (deg 19), 15066 (deg 21)",
+      "explanation": "3411 and 24734 have never co-authored but share 3 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 1,
+      "method": "Adamic-Adar",
+      "author_u": 45,
+      "author_v": 46,
+      "score": 10.597802981766895,
+      "common_neighbours": 42,
+      "shortest_path": 2,
+      "degree_u": 49,
+      "degree_v": 42,
+      "shared_collaborators": "2952 (deg 45), 4511 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), +37 more",
+      "explanation": "45 and 46 have never co-authored but share 42 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 2,
+      "method": "Adamic-Adar",
+      "author_u": 4511,
+      "author_v": 4513,
+      "score": 10.592054841937907,
+      "common_neighbours": 42,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 43,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +37 more",
+      "explanation": "4511 and 4513 have never co-authored but share 42 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 3,
+      "method": "Adamic-Adar",
+      "author_u": 4511,
+      "author_v": 22691,
+      "score": 10.592054841937907,
+      "common_neighbours": 42,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 77,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +37 more",
+      "explanation": "4511 and 22691 have never co-authored but share 42 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 4,
+      "method": "Adamic-Adar",
+      "author_u": 46,
+      "author_v": 4513,
+      "score": 10.335105670753032,
+      "common_neighbours": 41,
+      "shortest_path": 2,
+      "degree_u": 42,
+      "degree_v": 43,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +36 more",
+      "explanation": "46 and 4513 have never co-authored but share 41 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 5,
+      "method": "Adamic-Adar",
+      "author_u": 46,
+      "author_v": 22691,
+      "score": 10.335105670753032,
+      "common_neighbours": 41,
+      "shortest_path": 2,
+      "degree_u": 42,
+      "degree_v": 77,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +36 more",
+      "explanation": "46 and 22691 have never co-authored but share 41 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 6,
+      "method": "Adamic-Adar",
+      "author_u": 5210,
+      "author_v": 7444,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 33,
+      "degree_v": 28,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "5210 and 7444 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 7,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 8727,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 8727 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 8,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 9869,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 41,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 9869 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 9,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 12710,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 12710 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 10,
+      "method": "Adamic-Adar",
+      "author_u": 7444,
+      "author_v": 15245,
+      "score": 6.69908268240587,
+      "common_neighbours": 25,
+      "shortest_path": 2,
+      "degree_u": 28,
+      "degree_v": 33,
+      "shared_collaborators": "15457 (deg 34), 23712 (deg 34), 20574 (deg 37), 24718 (deg 40), 88 (deg 42), +20 more",
+      "explanation": "7444 and 15245 have never co-authored but share 25 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 1,
+      "method": "Preferential Attachment",
+      "author_u": 13801,
+      "author_v": 21012,
+      "score": 3645.0,
+      "common_neighbours": 1,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 81,
+      "shared_collaborators": "17655 (deg 66)",
+      "explanation": "13801 and 21012 have never co-authored but share 1 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 2,
+      "method": "Preferential Attachment",
+      "author_u": 13929,
+      "author_v": 21281,
+      "score": 3555.0,
+      "common_neighbours": 1,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 79,
+      "shared_collaborators": "20116 (deg 7)",
+      "explanation": "13929 and 21281 have never co-authored but share 1 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 3,
+      "method": "Preferential Attachment",
+      "author_u": 13801,
+      "author_v": 21281,
+      "score": 3555.0,
+      "common_neighbours": 1,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 79,
+      "shared_collaborators": "17655 (deg 66)",
+      "explanation": "13801 and 21281 have never co-authored but share 1 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 4,
+      "method": "Preferential Attachment",
+      "author_u": 18866,
+      "author_v": 21281,
+      "score": 3476.0,
+      "common_neighbours": 12,
+      "shortest_path": 2,
+      "degree_u": 44,
+      "degree_v": 79,
+      "shared_collaborators": "45 (deg 49), 773 (deg 55), 7956 (deg 56), 25346 (deg 56), 12781 (deg 57), +7 more",
+      "explanation": "18866 and 21281 have never co-authored but share 12 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 5,
+      "method": "Preferential Attachment",
+      "author_u": 4511,
+      "author_v": 22691,
+      "score": 3465.0,
+      "common_neighbours": 42,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 77,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +37 more",
+      "explanation": "4511 and 22691 have never co-authored but share 42 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 6,
+      "method": "Preferential Attachment",
+      "author_u": 13929,
+      "author_v": 22691,
+      "score": 3465.0,
+      "common_neighbours": 1,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 77,
+      "shared_collaborators": "21432 (deg 18)",
+      "explanation": "13929 and 22691 have never co-authored but share 1 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 7,
+      "method": "Preferential Attachment",
+      "author_u": 12365,
+      "author_v": 13801,
+      "score": 3465.0,
+      "common_neighbours": 1,
+      "shortest_path": 2,
+      "degree_u": 77,
+      "degree_v": 45,
+      "shared_collaborators": "17655 (deg 66)",
+      "explanation": "12365 and 13801 have never co-authored but share 1 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 8,
+      "method": "Preferential Attachment",
+      "author_u": 13801,
+      "author_v": 22691,
+      "score": 3465.0,
+      "common_neighbours": 1,
+      "shortest_path": 2,
+      "degree_u": 45,
+      "degree_v": 77,
+      "shared_collaborators": "17655 (deg 66)",
+      "explanation": "13801 and 22691 have never co-authored but share 1 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 9,
+      "method": "Preferential Attachment",
+      "author_u": 46,
+      "author_v": 22691,
+      "score": 3234.0,
+      "common_neighbours": 41,
+      "shortest_path": 2,
+      "degree_u": 42,
+      "degree_v": 77,
+      "shared_collaborators": "2952 (deg 45), 6830 (deg 45), 8879 (deg 45), 11472 (deg 45), 12851 (deg 45), +36 more",
+      "explanation": "46 and 22691 have never co-authored but share 41 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    },
+    {
+      "rank": 10,
+      "method": "Preferential Attachment",
+      "author_u": 2654,
+      "author_v": 21012,
+      "score": 3078.0,
+      "common_neighbours": 1,
+      "shortest_path": 2,
+      "degree_u": 38,
+      "degree_v": 81,
+      "shared_collaborators": "12365 (deg 77)",
+      "explanation": "2654 and 21012 have never co-authored but share 1 co-author(s); both sit 2 hops apart, inside the same collaboration circle."
+    }
+  ],
+  "top10_overlap": {
+    "Common Neighbours": {
+      "Common Neighbours": 10,
+      "Jaccard": 0,
+      "Adamic-Adar": 10,
+      "Preferential Attachment": 2
+    },
+    "Jaccard": {
+      "Common Neighbours": 0,
+      "Jaccard": 10,
+      "Adamic-Adar": 0,
+      "Preferential Attachment": 0
+    },
+    "Adamic-Adar": {
+      "Common Neighbours": 10,
+      "Jaccard": 0,
+      "Adamic-Adar": 10,
+      "Preferential Attachment": 2
+    },
+    "Preferential Attachment": {
+      "Common Neighbours": 2,
+      "Jaccard": 0,
+      "Adamic-Adar": 2,
+      "Preferential Attachment": 10
+    }
+  },
+  "top20_group_density": {
+    "min": 0.9969230769230769,
+    "max": 0.9989429175475687,
+    "mean": 0.9975255674558003
+  },
+  "top20_summary": {
+    "cn_min": 24,
+    "cn_max": 42,
+    "score_min": 6.391750298405703,
+    "score_max": 10.597802981766895,
+    "distinct_authors": 17,
+    "all_distance_2": true
+  },
+  "communities": {
+    "algorithm": "Louvain (networkx, seed 42)",
+    "count": 42,
+    "modularity": 0.8462115232763366,
+    "sizes_top10": [
+      290,
+      228,
+      221,
+      203,
+      190,
+      169,
+      159,
+      158,
+      154,
+      150
+    ],
+    "largest_share": 0.06974506974506975,
+    "test_edges_intra_community": 0.8863636363636364
+  },
+  "recommendation_subgraph": {
+    "nodes": 82,
+    "edges": 1660
+  },
+  "recommendation_pairs_shown": [
+    {
+      "method": "Adamic-Adar",
+      "rank": 1,
+      "author_u": 45,
+      "author_v": 46
+    },
+    {
+      "method": "Adamic-Adar",
+      "rank": 6,
+      "author_u": 5210,
+      "author_v": 7444
+    },
+    {
+      "method": "Jaccard",
+      "rank": 1,
+      "author_u": 19012,
+      "author_v": 20305
+    },
+    {
+      "method": "Preferential Attachment",
+      "rank": 1,
+      "author_u": 13801,
+      "author_v": 21012
+    }
+  ],
+  "cytoscape_files": {
+    "graphml": "visualizations/cytoscape/ca-GrQc_lcc.graphml",
+    "graphml_pred": "visualizations/cytoscape/ca-GrQc_lcc_with_predictions.graphml",
+    "nodes": "visualizations/cytoscape/cytoscape_nodes.csv",
+    "edges": "visualizations/cytoscape/cytoscape_edges.csv",
+    "predicted": "visualizations/cytoscape/predicted_links.csv"
+  },
+  "figures": [
+    "fig_communities.png",
+    "fig_communities.svg",
+    "fig_degree_distribution.png",
+    "fig_degree_distribution.svg",
+    "fig_hit_rate.png",
+    "fig_hit_rate.svg",
+    "fig_metric_comparison.png",
+    "fig_metric_comparison.svg",
+    "fig_network_overview.png",
+    "fig_network_overview.svg",
+    "fig_pr_curves.png",
+    "fig_pr_curves.svg",
+    "fig_precision_at_k.png",
+    "fig_precision_at_k.svg",
+    "fig_recommendation_pairs.png",
+    "fig_recommendation_pairs.svg",
+    "fig_recommendation_subgraph.png",
+    "fig_recommendation_subgraph.svg",
+    "fig_roc_curves.png",
+    "fig_roc_curves.svg",
+    "fig_seed_stability.png",
+    "fig_seed_stability.svg",
+    "recommendation_subgraph_interactive.html"
+  ]
+}

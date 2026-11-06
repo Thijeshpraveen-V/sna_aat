@@ -1,0 +1,20 @@
+# Core analysis
+networkx>=3.3
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+# Plotting / visualisation
+matplotlib>=3.9
+seaborn>=0.13
+pyvis>=0.3.2
+# Notebook
+jupyter
+nbformat>=5.10
+nbconvert>=7.16
+ipykernel>=6.29
+# Deliverables
+python-pptx>=1.0
+reportlab>=4.2
+pypdf>=4.0
+pymupdf>=1.24   # renders PDF pages to PNG for visual checks

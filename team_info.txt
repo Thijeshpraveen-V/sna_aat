@@ -1,0 +1,18 @@
+# Team / course details used by report/build_report.py and presentation/build_slides.py
+# Format: key = value   (edit values here, then rebuild with: .venv\Scripts\python build_all.py --docs-only)
+subject_name = Social Network Analysis
+subject_code = 24AM7PESNA
+topic = Link Prediction in a Co-authorship Network: Recommending Future Research Collaborations
+team_member_1_name = Thijesh Praveen V
+team_member_1_usn = 1BM23AI200
+team_member_2_name = Uday Kumar M
+team_member_2_usn = 1BM23AI203
+faculty_incharge = Lavanya B Koppal
+# Not given yet - fill in if needed (left blank = shown blank in the documents)
+faculty_designation =
+semester_section =
+college = B.M.S. COLLEGE OF ENGINEERING
+college_subtitle = Autonomous Institute, Affiliated to VTU, Belagavi
+department = DEPARTMENT OF MACHINE LEARNING
+program = B.E. in Artificial Intelligence and Machine Learning
+academic_year = Academic Year: 2026 - 27, Session: July 2026 - Dec 2026

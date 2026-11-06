@@ -1,0 +1,15 @@
+,Full graph,LCC
+Nodes,5242.0,4158.0
+Edges,14484.0,13422.0
+Density,0.0010544047057723853,0.0015530402828935425
+Average degree,5.526135062953071,6.455988455988456
+Maximum degree,81.0,81.0
+Median degree,3.0,3.0
+Average clustering coefficient,0.5296358110521362,0.5568782161697929
+Transitivity (global clustering),0.6298424741263426,0.6288944756689877
+Connected components,355.0,1.0
+Largest component size (nodes),4158.0,4158.0
+Isolated nodes,1.0,0.0
+Degree assortativity,0.6593246242993968,0.6391861406753755
+Diameter,,17.0
+Average shortest path length,,6.049380016182999

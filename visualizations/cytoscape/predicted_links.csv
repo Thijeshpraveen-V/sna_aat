@@ -1,0 +1,51 @@
+source,target,interaction,score,method,rank
+45,46,predicted,10.597802981766895,Adamic-Adar,1
+4511,4513,predicted,10.592054841937907,Adamic-Adar,2
+4511,22691,predicted,10.592054841937907,Adamic-Adar,3
+46,4513,predicted,10.335105670753032,Adamic-Adar,4
+46,22691,predicted,10.335105670753032,Adamic-Adar,5
+5210,7444,predicted,6.69908268240587,Adamic-Adar,6
+7444,8727,predicted,6.69908268240587,Adamic-Adar,7
+7444,9869,predicted,6.69908268240587,Adamic-Adar,8
+7444,12710,predicted,6.69908268240587,Adamic-Adar,9
+7444,15245,predicted,6.69908268240587,Adamic-Adar,10
+7444,15933,predicted,6.69908268240587,Adamic-Adar,11
+7444,19446,predicted,6.69908268240587,Adamic-Adar,12
+7444,20576,predicted,6.69908268240587,Adamic-Adar,13
+7444,22504,predicted,6.69908268240587,Adamic-Adar,14
+2449,5210,predicted,6.391750298405703,Adamic-Adar,15
+2449,8727,predicted,6.391750298405703,Adamic-Adar,16
+2449,12710,predicted,6.391750298405703,Adamic-Adar,17
+2449,15245,predicted,6.391750298405703,Adamic-Adar,18
+2449,15457,predicted,6.391750298405703,Adamic-Adar,19
+2449,19446,predicted,6.391750298405703,Adamic-Adar,20
+45,46,predicted,42.0,Common Neighbours,1
+4511,4513,predicted,42.0,Common Neighbours,2
+4511,22691,predicted,42.0,Common Neighbours,3
+46,4513,predicted,41.0,Common Neighbours,4
+46,22691,predicted,41.0,Common Neighbours,5
+5210,7444,predicted,25.0,Common Neighbours,6
+7444,8727,predicted,25.0,Common Neighbours,7
+7444,9869,predicted,25.0,Common Neighbours,8
+7444,12710,predicted,25.0,Common Neighbours,9
+7444,15245,predicted,25.0,Common Neighbours,10
+19012,20305,predicted,1.0,Jaccard,1
+3595,18174,predicted,1.0,Jaccard,2
+352,20533,predicted,1.0,Jaccard,3
+15666,15667,predicted,1.0,Jaccard,4
+6703,15596,predicted,1.0,Jaccard,5
+5227,7015,predicted,1.0,Jaccard,6
+195,19168,predicted,1.0,Jaccard,7
+8730,13177,predicted,1.0,Jaccard,8
+3411,4428,predicted,1.0,Jaccard,9
+3411,24734,predicted,1.0,Jaccard,10
+13801,21012,predicted,3645.0,Preferential Attachment,1
+13929,21281,predicted,3555.0,Preferential Attachment,2
+13801,21281,predicted,3555.0,Preferential Attachment,3
+18866,21281,predicted,3476.0,Preferential Attachment,4
+4511,22691,predicted,3465.0,Preferential Attachment,5
+13929,22691,predicted,3465.0,Preferential Attachment,6
+12365,13801,predicted,3465.0,Preferential Attachment,7
+13801,22691,predicted,3465.0,Preferential Attachment,8
+46,22691,predicted,3234.0,Preferential Attachment,9
+2654,21012,predicted,3078.0,Preferential Attachment,10
